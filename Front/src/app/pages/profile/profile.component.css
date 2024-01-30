@@ -1,0 +1,296 @@
+body {
+  font-size: 14px;
+  color: #787878;
+  line-height: 1.6em;
+  font-weight: 400;
+  background: #0c0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-family: "Roboto Condensed", sans-serif;
+}
+h1{
+  color: #fff;
+}
+h2{
+  color: #8f8e8e;
+  font-size: 1em;
+}
+.titulo{
+  color: #8f8e8e;
+}
+.btn-round-sm i {
+  color: aqua;
+}
+.text-grey-500 {
+  color: #adb5bd !important;
+}
+.featured-games-section {
+  background-size: 100%;
+  position: absolute;
+  width: 100%;
+  height: 26%;
+  z-index: -1;
+}
+.per {
+  margin-bottom: 10%;
+}
+.container-fluid {
+  padding-top: 50px;
+}
+img {
+  max-width: 154px;
+  max-height: 140px;
+}
+.form-group img {
+  border-radius: 200px;
+  padding: 2px;
+}
+
+figure {
+  display: block;
+}
+
+textarea {
+  background-color: #141d26;
+  display: inline-block;
+  text-align: start;
+  cursor: text;
+  margin: 0em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: (rgb(50, 175, 184), rgb(61, 184, 157));
+  border-image: initial;
+  padding: 2px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #141d26;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.post-card {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #1d232b;
+}
+
+.post-details{
+  color:#b3b3b3;
+}
+.post-details p{
+  position: relative;
+font-size: 15px;
+text-align:center;
+margin-top: -2px;
+  color:#b3b3b3;
+}
+
+.post-details .like-button{
+margin-top: 5px;
+}
+.fw-500 {
+  font-weight: 500 !important;
+}
+.text-grey-500 {
+  color: #adb5bd !important;
+}
+.pe-5 {
+  padding-right: 3rem !important;
+}
+.p-2 {
+  padding: 0.5rem !important;
+}
+.w-100 {
+  width: 95% !important;
+}
+.rounded-xxl {
+  border-radius: 15px !important;
+}
+.border-light-md {
+  border: 2px #3da3bd solid;
+}
+.font-xssss {
+  font-size: 12px !important;
+}
+
+.h100 {
+  height: 100px !important;
+}
+textarea {
+  text-align: center;
+  resize: vertical;
+}
+
+.form-outline {
+  color: rgb(170, 170, 170);
+}
+
+.form-check {
+  color: rgb(170, 170, 170);
+}
+
+p,
+small,
+h3,
+a {
+  color: rgb(170, 170, 170);
+}
+
+h4 {
+  color: rgb(255, 255, 255)
+}
+
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+
+
+body {
+  margin-top: 20px;
+  background: #0d0e1b;
+  ;
+}
+
+
+button {
+  background-color: rgb(0, 185, 205);
+  color: black;
+}
+
+@media (min-width: 0) {
+  .g-mr-15 {
+    margin-right: 1.07143rem !important;
+  }
+}
+
+@media (min-width: 0) {
+  .g-mt-3 {
+    margin-top: 0.21429rem !important;
+  }
+}
+
+.h5,
+h5 {
+  color: #3da3bd;
+}
+/* Estilos para a seção de postagens */
+.container {
+  padding: 20px;
+}
+
+.post-author-img{
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  max-width: 30px;
+}
+
+.media-comment {
+  padding: 10px;
+}
+
+.media-comment h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.media-body {
+  padding-top: 15px;
+  position: relative;
+}
+
+.g-mb-15 {
+  margin-bottom: 15px;
+}
+
+.h5 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.titulo {
+  text-decoration: none;
+}
+h3{
+  font-family: 'Roboto Condensed', sans-serif;
+ font-size: 1.2em;
+background-color: #2e637098;
+padding: 20px;
+}
+
+.btn.btn-link {
+  color: #333;
+  font-size: 14px;
+  padding: 0;
+}
+
+.btn.btn-link:hover {
+  text-decoration: underline;
+}
+
+.fa.fa-thumbs-up {
+  font-size: 16px;
+  position: relative;
+  top: 1px;
+  margin-right: 3px;
+}
+
+
+p {
+  color: #8f8e8e;
+}
+
+.media-body {
+  border-radius: 20px 20px 20px 20px;
+  background-color: #181818;
+}
+
+.g-height-50 {
+  height: 50px;
+}
+
+.g-width-50 {
+  width: 50px !important;
+}
+
+@media (min-width: 0) {
+  .g-pa-30 {
+    padding: 2.14286rem !important;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.g-bg-secondary {
+  background-color: #fafafa !important;
+}
+
+.u-shadow-v18 {
+  box-shadow: 0 5px 10px -6px rgba(0, 0, 0, 0.15);
+}
+
+.g-color-gray-dark-v4 {
+  color: #777 !important;
+}
+
+.g-font-size-12 {
+  font-size: 0.85714rem !important;
+}
+
+.media-comment {
+  margin-top: 20px
+}
+
+.media {
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}

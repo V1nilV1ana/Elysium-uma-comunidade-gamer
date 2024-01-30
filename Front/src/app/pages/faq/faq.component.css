@@ -1,0 +1,51 @@
+body {
+    margin-top: 20px;
+}
+
+#accordionExample {
+    --bs-accordion-btn-bg: #0f1522;
+    --bs-accordion-border-color: #0f1522;
+    --bs-accordion-bg: #0f1522;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(27 128 215 / 0%);
+    --bs-accordion-active-bg: #0f1522;
+    --bs-accordion-active-color: #00b9cd;
+    --bs-accordion-color: #9d9d9d;
+}
+
+.faq_area span {
+    color: #00b9cd;
+    font-family: 'Oswald', cursive;
+
+}
+
+button {
+    color: rgb(255, 255, 255);
+}
+
+
+.section_padding_130 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.faq_area {
+    position: relative;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 575px) {
+    .support-button i {
+        font-size: 1rem;
+    }
+}
+
+.support-button a {
+    text-transform: capitalize;
+    color: #2ecc71;
+}
+
+@media only screen and (max-width: 575px) {
+    .support-button a {
+        font-size: 13px;
+    }
+}

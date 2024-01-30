@@ -1,0 +1,380 @@
+.edit-card {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #1d232b;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  label{
+    color: #fff;
+  }
+
+  .edit-card p {
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+
+  input{
+    color: #fff;
+    background-color: #1d232b;
+  }
+
+  .edit-card a {
+    color: inherit;
+    text-decoration: none;
+
+  }
+
+  .edit-card a:hover {
+    text-decoration: underline;
+  }
+
+  .edit-card button {
+    color: white;
+
+    text-decoration: none;
+    background-color: #00b9cd;
+    border: none;
+    cursor: pointer;
+  }
+
+  .edit-card button:hover {
+    text-decoration: underline;
+  }
+
+  .edit-card label {
+    font-weight: bold;
+  }
+
+  .edit-card input[type="text"],
+  .edit-card textarea,
+  #coments {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color:#fff;
+    background-color: #1d232b;
+    resize: vertical;
+  }
+
+  .edit-card button.edit-button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #00b9cd;;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .edit-card .error-message {
+    color: red;
+    margin-top: 10px;
+
+  }
+
+
+  .edit-card {
+    margin: 20px;
+      background-color: #1d232b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .edit-card .button-group {
+    margin-top: 10px;
+  }
+
+  .edit-card .button-group button {
+    margin-right: 10px;
+  }
+
+
+  .comment-section {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .comment-card {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #171c22;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .comment-card p {
+    margin-bottom: 5px;
+    color: #00b9cd;
+  }
+
+  .comment-card button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00b9cd;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .comment-card button:hover {
+    background-color: #3672d9;
+  }
+
+  .comment-card textarea {
+    width: 100%;
+    resize: vertical;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .comment-card .error-message {
+    color: red;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+    dialog {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      max-width: 600px;
+      padding: 20px;
+      background-color: #1d232b;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+      z-index: 999;
+    }
+        .overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.5);
+          /* Adjust the opacity as desired */
+          z-index: 998;
+          /* Ensure the overlay appears above other elements */
+        }
+
+        .del{
+          color: red;
+        }
+        #delete1, #delete2, #delete3, #delete4{
+          background-color: red;
+        }
+
+        #like1, #like2{
+          margin-right: auto;
+        }
+
+      .btn{
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+      .list-group {
+        margin: 20px;
+      }
+
+      .edit-card {
+        background-color: #141d26;
+        color: #ffffff;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 0.25rem;
+        padding: 1rem;
+      }
+
+      .post-author {
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+
+      }
+
+      .post-author-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 0.5rem;
+      }
+
+      .post-author-username {
+        font-weight: bold;
+        margin-right: 0.5rem;
+      }
+
+      .post-title {
+        font-weight: bold;
+        color: #afafaf;
+
+      }
+
+      .like-button {
+        color: #1da1f2;
+        display: flex;
+        align-items: center;
+      }
+
+      .log a{
+        color: #1da1f2;
+        text-decoration: underline;
+      }
+
+      .like-button svg {
+        margin-right: 0.25rem;
+      }
+
+      .btn-link {
+        border: none;
+        background-color: transparent;
+        padding: 0;
+        color: #1da1f2;
+      }
+
+      .btn-link:focus,
+      .btn-link:hover {
+        text-decoration: underline;
+      }
+
+      .comment-card {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .comment-card p {
+        margin-bottom: 0.5rem;
+      }
+
+      .comment-card button {
+        
+        display: flex;
+        align-items: center;
+        margin-top: 0.5rem;
+      }
+
+      .comment-card button svg {
+        margin-right: 0.25rem;
+      }
+
+      .error-message {
+        color: #dc3545;
+        margin-top: 0.5rem;
+      }
+      .post-card .comment-section {
+        margin-top: 20px;
+      }
+
+      .post-card .comment-card {
+        background-color: #F5F8FA;
+        color: #14171A;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .post-card .comment-card p {
+        margin: 0;
+      }
+
+      .post-card .comment-card a {
+        text-decoration: none;
+        
+      }
+
+      .post-card .comment-card button {
+        display: flex;
+        align-items: center;
+        background: none;
+        border: none;
+        cursor: pointer;
+        
+      }
+
+      .post-card .comment-card svg {
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+
+      .post-card .comment-card div {
+        margin-top: 10px;
+      }
+
+      .post-card .btn-danger {
+        background-color: #E0245E;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 3px;
+        border: none;
+        cursor: pointer;
+      }
+
+      .post-card .btn-danger:hover {
+        background-color: #CC1543;
+      }
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.comment-section button path{
+background-color: #ffffff;
+color: #ffffff;
+}
+#like2{
+  color: #ccc;
+}
+.comment-section a{
+  color: #ffffff;
+}
+.comment-section p{
+  color:  #ccc;
+}
+
+.btn{
+  background-color: #00b9cd;
+  color: #ccc;
+}
+a{
+  color: #ccc
+}
+.form-control{
+  background-color: #1d232b;
+    color: #ccc;
+}
+
+.btnpost{
+  margin-left: 5%;
+}
+
+.button-container {
+  margin-top: 15px;
+  display: flex;
+  gap: 3px;
+  /* Adjust this value to control the spacing between the buttons */
+}
+
+.form-control:focus{
+  background-color: #1d232b;
+  color: #ccc;
+}
+
+p{
+  color: #ccc;
+}
+
+.log2{
+  color: #ccc
+}
+.log2 a {
+  color: #1da1f2;
+  text-decoration: underline;
+}
